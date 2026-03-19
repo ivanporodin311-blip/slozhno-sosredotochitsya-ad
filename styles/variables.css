@@ -2,3 +2,37 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Основные цвета (для темной темы по умолчанию) */
+  --accent-color: #FF0070;           /* Акцентный розовый для REC, уголков, фона */
+  --text-color: #F1F1F1;              /* Основной цвет текста */
+  --background-color: #000028;         /* Запасной цвет фона */
+  --title-decor-text: #000028;         /* Цвет текста на розовом фоне */
+  --nav-color: #FF0070;                /* Цвет кнопок меню */
+  --title-shadow-color: #DB00FF;       /* Цвет тени заголовка "no focus" */
+  
+  /* Фоновое изображение */
+  --background-image: url('../images/cover-image-dark.png');
+  
+  /* Шрифты */
+  --font-family: 'IBM Plex Mono', monospace;
+  
+  /* Размеры и отступы */
+  --regular-font-size: 18px;
+  --bold-font-weight: 700;
+  --regular-font-weight: 400;
+  --line-height: 1.3;
+  --small-line-height: 0.83;           /* Для заголовка */
+  
+  /* Отступы */
+  --gap-small: 10px;
+  --gap-medium: 20px;
+  --gap-large: 40px;
+  
+  /* Размеры уголков */
+  --corner-size: 25px;
+  --corner-offset: 10px;
+  --button-hover-border: #ff007066;
+   --button-color: #ff0070;
+}
